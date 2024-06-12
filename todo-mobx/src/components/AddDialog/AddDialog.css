@@ -1,0 +1,40 @@
+dialog {
+  padding: 0;
+  width: min(600px, 100%);
+  border: 0px;
+  border-radius: 10px;
+
+  &::backdrop {
+    background-color: var(--backdrop-color);
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 1.4rem;
+    padding: 16px;
+  }
+
+  .dialog__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px 16px;
+
+    footer button {
+      &:first-child {
+        margin-right: 16px;
+      }
+
+      width: 48%;
+    }
+
+    .dialog__textarea {
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      min-height: 120px;
+      font-size: 1rem;
+      resize: none;
+      margin-bottom: 16px;
+    }
+  }
+}

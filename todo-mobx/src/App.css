@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .add-btn {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 4px;
+  }
+}

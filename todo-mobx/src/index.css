@@ -1,0 +1,128 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* color: dark */
+  --border-color: #ababab;
+  --backdrop-color: #4e4e4ea5;
+  --disabled-color: #4e4e4ea5;
+  --disabled-font-color: rgba(255, 255, 255, 0.504);
+  /* btn colors */
+  --btn-background: #1a1a1a;
+  --btn-hover-background: #3a3a3a;
+  --confirm-focus-ring-color: #00410a;
+  --focus-ring-color: #070641;
+  --cancel-focus-ring-color: #410000;
+  --confirm-active-ring-color: #005d0e;
+  --active-ring-color: #0e0c7e;
+  --cancel-active-ring-color: #7e0101;
+  /* icon colors */
+  --icon-color: #ababab;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: flex-start;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--btn-background);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  outline-width: 4px;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px groove var(--focus-ring-color);
+
+  &.button--confirm {
+    outline: 2px groove var(--confirm-focus-ring-color);
+  }
+
+  &.button--cancel {
+    outline: 2px groove var(--cancel-focus-ring-color);
+  }
+}
+
+button:active {
+  outline: 2px groove var(--active-ring-color);
+
+  &.button--confirm {
+    outline: 2px groove var(--confirm-active-ring-color);
+  }
+
+  &.button--cancel {
+    outline: 2px groove var(--cancel-active-ring-color);
+  }
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  fill: var(--icon-color);
+}
+
+@media (hover: hover) {
+  button:hover {
+    background-color: var(--btn-hover-background);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+
+    /* color: light */
+    --boder-color: #2d2d2d;
+    --backdrop-color: #a2a2a2a5;
+    --disabled-color: #a2a2a2a5;
+    --disabled-font-color: #213547c7;
+    /* btn colors */
+    --btn-background: #f9f9f9;
+    --btn-hover-background: #dcdcdc;
+    --confirm-focus-ring-color: #00c01d;
+    --focus-ring-color: #0300b2;
+    --cancel-focus-ring-color: #bb0000;
+    --confirm-active-ring-color: #00ff26;
+    --active-ring-color: #0400ff;
+    --cancel-active-ring-color: #ff0000;
+    /* icon colors */
+    --icon-color: #242424;
+  }
+}
