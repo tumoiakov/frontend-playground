@@ -1,0 +1,22 @@
+/* dark mode */
+:root {
+  --primary-font-color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+  --primary-btn-color: #29abe2;
+  --outline-btn-color: #fff;
+  --outline-btn-border-color: #29abe2;
+  --outline-btn-font-color: #29abe2;
+}
+
+/* light mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    /* colors */
+    --primary-font-color: #272727;
+    --background-color: #ffffff;
+    --primary-btn-color: #29abe2;
+    --outline-btn-color: #fff;
+    --outline-btn-border-color: #29abe2;
+    --outline-btn-font-color: #29abe2;
+  }
+}

@@ -1,0 +1,14 @@
+.menu {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      font-size: 0.88em;
+    }
+  }
+}

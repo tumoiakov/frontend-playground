@@ -1,41 +1,10 @@
+import { Header } from "@widgets/header";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <header>
-        <img src="" alt="logo" />
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Матрасы</a>
-            </li>
-            <li>
-              <a href="#">О продукции</a>
-            </li>
-            <li>
-              <a href="#">Доставка</a>
-            </li>
-            <li>
-              <a href="#">Гарантии</a>
-            </li>
-            <li>
-              <a href="#">Отзывы</a>
-            </li>
-            <li>
-              <a href="#">Адреса магазинов</a>
-            </li>
-            <li>
-              <a href="#">Партнерам</a>
-            </li>
-            <li>
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <p>8 (963) 944 99 91</p>
-        <button>Заказать звонок</button>
-      </header>
+      <Header />
       <section>
         <h1>Ортопедические матрасы для отдыха с комфортом</h1>
         <p>
