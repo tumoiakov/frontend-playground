@@ -8,7 +8,6 @@ const Button = ({
   type = "primary",
   ...rest
 }: ButtonProps) => {
-  // TODO add sizes of button
   return (
     <button
       {...rest}

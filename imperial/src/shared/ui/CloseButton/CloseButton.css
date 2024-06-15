@@ -1,0 +1,12 @@
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: var(--background--color);
+
+  .close__icon {
+    min-width: 52px;
+    min-height: 52px;
+  }
+}
