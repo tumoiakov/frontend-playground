@@ -1,0 +1,68 @@
+.presentation {
+  min-height: 900px;
+  background: no-repeat right / contain
+    url("/src/assets/presentation-background.png");
+  display: flex;
+  align-items: stretch;
+
+  .presentation__content {
+    box-sizing: content-box;
+    max-width: 622px;
+    margin: 0;
+    margin-top: -131px;
+    padding: 236px 0 0 215px;
+    display: flex;
+    flex-direction: column;
+
+    .presentation__title {
+      margin: 0 0 2px 0;
+      font-family: Playfair Display, system-ui, Avenir, Helvetica, Arial,
+        sans-serif;
+      font-size: 3.75rem;
+    }
+
+    .presentation__description {
+      max-width: 546px;
+      margin-bottom: 30px;
+    }
+
+    .presentation__btn {
+      max-width: 261px;
+    }
+
+    .presentation__more {
+      margin-top: auto;
+      margin-bottom: 99px;
+      display: flex;
+      align-items: center;
+
+      .presentation__more__icon {
+        display: inline;
+        position: relative;
+        min-width: 24px;
+        min-height: 24px;
+        background: no-repeat center / contain
+          url("/src/assets/icons/mouse.svg");
+        margin-right: 6px;
+
+        &::before {
+          content: "";
+          min-width: 8px;
+          min-height: 8px;
+          background: no-repeat center / contain
+            url("/src/assets/icons/chevron-down.svg");
+          position: absolute;
+          left: 50%;
+          bottom: 0%;
+          transform: translate(-50%, 120%);
+        }
+      }
+
+      span {
+        color: var(--outline-btn-color);
+        font-weight: 700;
+        font-size: 0.875rem;
+      }
+    }
+  }
+}

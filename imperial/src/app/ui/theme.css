@@ -4,7 +4,8 @@
   --background-color: #242424;
   /* button */
   --primary-btn-background: #29abe2;
-  --outline-btn-background: #fff;
+  --primary-btn-color: #fff;
+  --outline-btn-background: #242424;
   --outline-btn-border-color: #29abe2;
   --outline-btn-color: #29abe2;
 }
@@ -16,9 +17,10 @@
     --primary-color: #272727;
     --background-color: #ffffff;
     /* button */
-    --primary-btn-color: #29abe2;
-    --outline-btn-color: #fff;
+    --primary-btn-background: #29abe2;
+    --primary-btn-color: #fff;
+    --outline-btn-background: #fff;
     --outline-btn-border-color: #29abe2;
-    --outline-btn-font-color: #29abe2;
+    --outline-btn-color: #29abe2;
   }
 }

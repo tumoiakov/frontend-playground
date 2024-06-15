@@ -1,11 +1,12 @@
 .button {
-  display: flexbox;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 52px;
   padding: 14px 34px;
   border-radius: 27px;
   background-color: var(--primary-btn-background);
+  color: var(--primary-btn-color);
   border: none;
   font-size: 15px;
   font-weight: 700;
@@ -13,7 +14,7 @@
   &.button--outline {
     background-color: var(--outline-btn-background);
     border: 2px solid var(--outline-btn-border-color);
-    color: var(--outline-btn-font-color);
+    color: var(--outline-btn-color);
   }
 
   &.button--secondary {
@@ -24,5 +25,4 @@
       background-color: var(--outline-hover-btn-background);
     }
   }
-  /* TODO make styles for hover and active state */
 }

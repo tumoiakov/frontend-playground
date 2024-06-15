@@ -1,19 +1,11 @@
 import { Header } from "@widgets/header";
-import "./App.css";
+import { Presentation } from "@widgets/presentation";
 
 function App() {
   return (
     <>
       <Header />
-      <section>
-        <h1>Ортопедические матрасы для отдыха с комфортом</h1>
-        <p>
-          Подберите для себя матрас индивидуально по выгодной цене и дизайну на
-          нашем онлайн-конструкторе прямо сейчас!
-        </p>
-        <button>Подобрать матрас</button>
-        <a>Подробнее</a>
-      </section>
+      <Presentation />
       <section>
         <h1>Наши преимущества</h1>
         <p>
@@ -100,7 +92,7 @@ function App() {
           <button>Показать все варианты</button>
         </section>
       </section>
-      <section className="constuctor">
+      <section id="constuctor" className="constuctor">
         <header>
           <hgroup>
             <h1>Онлайн-конструктор матрасов</h1>
@@ -157,7 +149,7 @@ function App() {
           </article>
         </div>
       </section>
-      <section className="contacts">
+      <section id="contacts" className="contacts">
         <section className="contacts__content">
           <header>
             <hgroup>

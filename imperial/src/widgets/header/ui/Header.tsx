@@ -15,7 +15,7 @@ function Header() {
   }, [open]);
 
   return (
-    <header className="header">
+    <header className="section header">
       <MenuButton className="header__burger" onClick={toggleOpen} />
       <Logo className="header__logo" />
       <section className={clsx("header__menu", open && "header__menu--open")}>
@@ -26,11 +26,13 @@ function Header() {
       </section>
       <section className="header__phone">
         <p className="header__phone-number">
-          <PhoneSVG width={16} height={16} />
+          <PhoneSVG width={16} height={16} aria-label="Phone icon"/>
           <span>8 (963) 944 99 91</span>
         </p>
         <p className="header__btn">
-          <Button type="outline">Заказать звонок</Button>
+          <Button elem="link" href="#contacts" type="outline">
+            Заказать звонок
+          </Button>
         </p>
       </section>
     </header>
