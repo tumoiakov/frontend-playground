@@ -19,14 +19,14 @@ function Header() {
       <MenuButton className="header__burger" onClick={toggleOpen} />
       <Logo className="header__logo" />
       <section className={clsx("header__menu", open && "header__menu--open")}>
-        <header>
+        <header className="menu__header">
           <CloseButton onClick={toggleOpen} />
         </header>
         <Navigation />
       </section>
       <section className="header__phone">
         <p className="header__phone-number">
-          <PhoneSVG width={16} height={16} aria-label="Phone icon"/>
+          <PhoneSVG width={16} height={16} aria-label="Phone icon" />
           <span>8 (963) 944 99 91</span>
         </p>
         <p className="header__btn">
