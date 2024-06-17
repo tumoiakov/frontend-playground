@@ -7,11 +7,8 @@ import { Advantage } from "@entities/Advatage";
 
 const Advantages = () => {
   return (
-    <section className="advantages">
-      <SectionContainer
-        className="advantages__container inverted"
-        id="advantages"
-      >
+    <section id="advantages" className="advantages">
+      <SectionContainer className="advantages__container inverted">
         <header className="advantages__header">
           <SectionHeader title={title} description={description} />
         </header>
