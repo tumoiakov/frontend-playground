@@ -1,0 +1,48 @@
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 13.75em;
+
+  .advantage__logo {
+    width: 3.125em;
+    height: 3.125em;
+    margin-bottom: 1em;
+    background: var(--inverted);
+
+    &.eco {
+      -webkit-mask: no-repeat center / cover
+        url("/src/assets/advantage/eco.svg");
+      mask: no-repeat center / cover url("/src/assets/advantage/eco.svg");
+    }
+
+    &.quality {
+      -webkit-mask: no-repeat center / cover
+        url("/src/assets/advantage/quality.svg");
+      mask: no-repeat center / cover url("/src/assets/advantage/quality.svg");
+    }
+
+    &.complexity {
+      -webkit-mask: no-repeat center / cover
+        url("/src/assets/advantage/quality.svg");
+      mask: no-repeat center / cover url("/src/assets/advantage/complexity.svg");
+    }
+
+    &.warranty {
+      -webkit-mask: no-repeat center / cover
+        url("/src/assets/advantage/quality.svg");
+      mask: no-repeat center / cover url("/src/assets/advantage/warranty.svg");
+    }
+  }
+
+  .advantage__title {
+    font-size: 1.125rem;
+    font-weight: 900;
+    margin: 0;
+  }
+
+  .advantage__description {
+    font-weight: 300;
+  }
+}

@@ -1,3 +1,4 @@
+import { Advantages } from "@widgets/advantages";
 import { Header } from "@widgets/header";
 import { Presentation } from "@widgets/presentation";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <Presentation />
+      <Advantages />
       <section>
         <h1>Наши преимущества</h1>
         <p>

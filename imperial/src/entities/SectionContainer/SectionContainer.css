@@ -1,0 +1,28 @@
+.section-container {
+  position: relative;
+	max-width: 1168px;
+	margin: 0 auto;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -5.438em;
+    top: 1.688em;
+    width: 3.188em;
+    height: 0.25em;
+    background: var(--primary);
+  }
+
+  &.inverted {
+    &::before {
+      content: "";
+      position: absolute;
+      left: -5.438em;
+      top: 1.688em;
+      width: 3.188em;
+      height: 0.25em;
+      background: var(--inverted);
+    }
+  }
+}
+

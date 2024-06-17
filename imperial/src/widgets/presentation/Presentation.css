@@ -24,6 +24,7 @@
     .presentation__description {
       max-width: 546px;
       margin-bottom: 30px;
+      font-weight: 300;
     }
 
     .presentation__btn {
