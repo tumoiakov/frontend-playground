@@ -22,7 +22,7 @@ function Header() {
         <header className="menu__header">
           <CloseButton onClick={toggleOpen} />
         </header>
-        <Navigation />
+        <Navigation className="menu--header" />
       </section>
       <section className="header__phone">
         <p className="header__phone-number">

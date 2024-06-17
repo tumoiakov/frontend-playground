@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .header {
     flex-direction: column;
     position: relative;
@@ -82,18 +82,16 @@
         height: 100dvh;
         display: flex;
         flex-direction: column;
+        align-items: center;
         background-color: var(--background-color);
         padding: 16px;
         z-index: 1;
         .menu__header {
+          align-self: flex-end;
           display: flex;
           flex-direction: row;
           align-items: center;
           justify-content: flex-end;
-        }
-
-        .menu {
-          flex-direction: column;
         }
       }
     }
