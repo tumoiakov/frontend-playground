@@ -16,7 +16,7 @@ const SectionContainer = memo(
         id={id}
         className={clsx("section", inverted && "inverted", className)}
       >
-        <div className={clsx("section__container", `${className}__container`)}>
+        <div className={clsx("section__container", `${id}__container`)}>
           {children}
         </div>
       </section>

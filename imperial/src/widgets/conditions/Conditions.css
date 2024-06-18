@@ -1,0 +1,89 @@
+.conditions {
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right;
+
+  .conditions__container {
+    flex-direction: column;
+
+    .section-header {
+      max-width: 29.2em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.563em;
+
+      li {
+        display: flex;
+        font-weight: 300;
+        align-items: center;
+
+        .delivery-icon,
+        .floor-icon,
+        .gift-icon {
+          width: 2.5em;
+          height: 2.5em;
+        }
+
+        .delivery-icon {
+          background: no-repeat center / contain
+            url("/src/assets/conditions/delivery.svg");
+        }
+
+        .floor-icon {
+          background: no-repeat center / contain
+            url("/src/assets/conditions/floor.svg");
+        }
+
+        .gift-icon {
+          background: no-repeat center / contain
+            url("/src/assets/conditions/gift.svg");
+        }
+
+        span {
+          margin-left: 1.563em;
+        }
+      }
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      margin-top: 3.5em;
+    }
+  }
+
+  &.conditions--first {
+    background-image: url("/src/assets/conditions/condition1.png");
+  }
+  &.conditions--second {
+    background-image: url("/src/assets/conditions/condition2.png");
+  }
+  &.conditions--third {
+    background-image: url("/src/assets/conditions/condition3.png");
+  }
+  &.conditions--fourth {
+    background-image: url("/src/assets/conditions/condition4.png");
+  }
+  &.conditions--fifth {
+    background-image: url("/src/assets/conditions/condition5.png");
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .conditions {
+    background-position: left 35em center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #conditions.conditions {
+    background-image: none;
+  }
+}

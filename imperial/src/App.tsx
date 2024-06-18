@@ -1,4 +1,5 @@
 import { Advantages } from "@widgets/advantages";
+import { Conditions } from "@widgets/conditions";
 import { Constructor } from "@widgets/constructor";
 import { Header } from "@widgets/header";
 import { Presentation } from "@widgets/presentation";
@@ -12,34 +13,7 @@ function App() {
       <Advantages />
       <Products />
       <Constructor />
-      <section id="constuctor" className="constuctor">
-        <header>
-          <hgroup>
-            <h1>Онлайн-конструктор матрасов</h1>
-            <p>
-              С помощью представленного ниже конструктора матрасов Вы легко
-              сможете изменить состав стандартной модели матраса или
-              сконструировать индивидуальную модель матраса.
-            </p>
-          </hgroup>
-        </header>
-        <div>{/* TODO add constuctor */}</div>
-      </section>
-      <section className="conditions">
-        <header>
-          <h1>Честные условия покупки</h1>
-          <p>
-            Мы радуем своих клиентов приятными подарками и отличными условиями
-            обслуживания
-          </p>
-        </header>
-        <ul>
-          <li>Доставка у нас бесплатная</li>
-          <li>Поднимаем матрас на любой этаж бесплатно</li>
-          <li>Дарим съемный чехол для матраса</li>
-        </ul>
-        <button>Подобрать матрас</button>
-      </section>
+      <Conditions />
       <section className="feedback">
         <header>
           <h1>Отзывы о нашей продукции</h1>
