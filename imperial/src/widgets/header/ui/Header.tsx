@@ -27,7 +27,7 @@ function Header() {
       <section className="header__phone">
         <p className="header__phone-number">
           <PhoneSVG width={16} height={16} aria-label="Phone icon" />
-          <span>8 (963) 944 99 91</span>
+          <span>8 (963) 944 XX XX</span>
         </p>
         <p className="header__btn">
           <Button elem="link" href="#contacts" type="outline">

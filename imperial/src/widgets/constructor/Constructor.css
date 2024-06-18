@@ -1,0 +1,9 @@
+.constuctor {
+  .constuctor__container {
+    flex-direction: column;
+
+    .section-header {
+      max-width: 38.467em;
+    }
+  }
+}

@@ -1,9 +1,8 @@
 import { SectionContainer } from "@entities/SectionContainer";
 import { SectionHeader } from "@entities/SectionHeader";
 import { advantages, description, title } from "./Advantages.const";
-
-import "./Advantages.css";
 import { Advantage } from "@entities/Advatage";
+import "./Advantages.css";
 
 const Advantages = () => {
   return (

@@ -1,4 +1,5 @@
 import { Advantages } from "@widgets/advantages";
+import { Constructor } from "@widgets/constructor";
 import { Header } from "@widgets/header";
 import { Presentation } from "@widgets/presentation";
 import { Products } from "@widgets/products";
@@ -10,54 +11,7 @@ function App() {
       <Presentation />
       <Advantages />
       <Products />
-      <section className="products">
-        <header>
-          <hgroup>
-            <h1>Наша продукция</h1>
-            <p>
-              Выберите из нашего огромного каталога интересующий Вас вариант, и
-              оставьте заявку на его приобретение. Мы обязательно свяжемся с
-              Вами!
-            </p>
-          </hgroup>
-          <menu>
-            <p>Выберите категорию:</p>
-            <div>
-              <button>Матрасы</button>
-              {/* TODO change this to select element \*/}
-              <button>Наматрасники</button>
-              <button>Детские матрасы</button>
-            </div>
-          </menu>
-        </header>
-        <section className="product-list">
-          <article className="product">
-            <header>
-              <img src="" alt="product-image" className="product__image" />
-              <h2 className="product__title">Турин-1</h2>
-            </header>
-            <section className="product__composition">
-              <h3>Состав:</h3>
-              <ul>
-                <li>Кокосовая койра - 2 см.</li>
-                <li>Волок термоскрепленный - 0.5 см.</li>
-                <li>Кокосовая койра - 2 см.</li>
-                <li>Высота матраца - 16см.</li>
-                <li>Для людей весом до 120 кг.</li>
-              </ul>
-            </section>
-            <section>
-              <p>
-                <span>1500 p.</span>
-                <button>200x200</button>
-                {/* TODO change to select */}
-              </p>
-              <a>Заказать товар</a>
-            </section>
-          </article>
-          <button>Показать все варианты</button>
-        </section>
-      </section>
+      <Constructor />
       <section id="constuctor" className="constuctor">
         <header>
           <hgroup>
@@ -171,17 +125,17 @@ function App() {
           </nav>
           <section className="footer__addresses">
             <p>Адреса салонов:</p>
-            <p>ул.Красный проспект д. 99 (салон "Матрасы & Кровати")</p>
-            <p>пр.Дзержинского д. 1/4 (салон "Дюна" 3 этаж)</p>
-            <p>ул.Гоголя д. 14 (салон "Все для сна")</p>
-            <p>c.Сокур, ул. Советская д. 80 (Станция Комфорта)</p>
+            <p>ул.Красный проспект д. XX (салон "Матрасы & Кровати")</p>
+            <p>пр.Дзержинского д. X/X (салон "Дюна" 3 этаж)</p>
+            <p>ул.Гоголя д. XX (салон "Все для сна")</p>
+            <p>c.Сокур, ул. Советская д. XX (Станция Комфорта)</p>
           </section>
           <section className="footer__phone">
-            <p>8 (963) 944 99 91</p>
+            <p>8 (963) 944 XX XX</p>
             <p>Заказать звонок</p>
           </section>
         </div>
-        <p>Все права защищены. 2020. Империа-Л.</p>
+        <p>Все права защищены. 2024. Империа-Л.</p>
       </footer>
     </>
   );

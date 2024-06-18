@@ -1,10 +1,10 @@
 import { memo } from "react";
-import "./Products.css";
 import { SectionContainer } from "@entities/SectionContainer";
 import { SectionHeader } from "@entities/SectionHeader";
 import { description, products, title } from "./Products.const";
 import { Button } from "@shared/ui";
 import { Product } from "@entities/Product";
+import "./Products.css";
 
 const Products = memo(() => {
   return (
