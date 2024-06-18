@@ -13,3 +13,11 @@
     margin-top: 0.313em;
   }
 }
+
+@media screen and (max-width: 650px){
+  .section-header {
+    .section-header__title {
+      font-size: 1.75rem;
+    }
+  }
+}

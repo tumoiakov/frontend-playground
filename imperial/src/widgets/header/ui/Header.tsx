@@ -15,7 +15,7 @@ function Header() {
   }, [open]);
 
   return (
-    <header className="section header">
+    <header className="header">
       <MenuButton className="header__burger" onClick={toggleOpen} />
       <Logo className="header__logo" />
       <section className={clsx("header__menu", open && "header__menu--open")}>

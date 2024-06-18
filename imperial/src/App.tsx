@@ -1,6 +1,7 @@
 import { Advantages } from "@widgets/advantages";
 import { Header } from "@widgets/header";
 import { Presentation } from "@widgets/presentation";
+import { Products } from "@widgets/products";
 
 function App() {
   return (
@@ -8,44 +9,7 @@ function App() {
       <Header />
       <Presentation />
       <Advantages />
-      <section>
-        <h1>Наши преимущества</h1>
-        <p>
-          Изготовление матрасов любого размера и любой формы, изготовление
-          матрасов в сжатые сроки и не забываем про высокое качество и доступные
-          цены!
-        </p>
-        <div>
-          <article className="advantage">
-            <div className="advantage__logo" />
-            <h1 className="advantage__title">Экологичность</h1>
-            <p className="advantage__description">
-              Произведено в Сибири по честной цене
-            </p>
-          </article>
-          <article className="advantage">
-            <div className="advantage__logo" />
-            <h1 className="advantage__title">Качество</h1>
-            <p className="advantage__description">
-              Лучшие комплектующие из России и мира
-            </p>
-          </article>
-          <article className="advantage">
-            <div className="advantage__logo" />
-            <h1 className="advantage__title">Любая сложность</h1>
-            <p className="advantage__description">
-              Любые размеры и форма за 3 дня
-            </p>
-          </article>
-          <article className="advantage">
-            <div className="advantage__logo" />
-            <h1 className="advantage__title">Гарантия</h1>
-            <p className="advantage__description">
-              Гарантия до 18 месяцев Срок службы до 15 лет
-            </p>
-          </article>
-        </div>
-      </section>
+      <Products />
       <section className="products">
         <header>
           <hgroup>

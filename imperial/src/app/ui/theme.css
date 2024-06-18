@@ -4,6 +4,8 @@
   --background-color: #242424;
   --primary: #29abe2;
   --inverted: #272727;
+  --card-shadow-color: rgba(41, 171, 226, 0.12);
+  --border-color: #f3f3f3;
   /* button */
   --primary-btn-background: #29abe2;
   --primary-btn-color: #fff;

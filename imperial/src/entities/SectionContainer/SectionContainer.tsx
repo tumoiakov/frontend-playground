@@ -3,17 +3,23 @@ import "./SectionContainer.css";
 import { clsx } from "clsx";
 
 type SectionContainerProps = {
+  id: string;
   children: ReactNode | ReactNode[];
-  id?: string;
   className?: string;
+  inverted?: boolean;
 };
 
 const SectionContainer = memo(
-  ({ children, id, className }: SectionContainerProps) => {
+  ({ children, id, inverted, className }: SectionContainerProps) => {
     return (
-      <div id={id} className={clsx("section-container", className)}>
-        {children}
-      </div>
+      <section
+        id={id}
+        className={clsx("section", inverted && "inverted", className)}
+      >
+        <div className={clsx("section__container", `${className}__container`)}>
+          {children}
+        </div>
+      </section>
     );
   }
 );

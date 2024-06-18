@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1600px;
+  padding: 14px 40px;
   margin: 0 auto;
 
   .header__burger {
@@ -57,10 +59,7 @@
     flex-direction: column;
     position: relative;
     flex-wrap: wrap;
-
-    &.section {
-      padding: 16px;
-    }
+    padding: 16px;
 
     .header__burger {
       display: flex;

@@ -7,18 +7,16 @@ import { Advantage } from "@entities/Advatage";
 
 const Advantages = () => {
   return (
-    <section id="advantages" className="advantages">
-      <SectionContainer className="advantages__container inverted">
-        <header className="advantages__header">
-          <SectionHeader title={title} description={description} />
-        </header>
-        <div className="advantages__list">
-          {advantages.map((item) => (
-            <Advantage advantage={item} key={item.title} />
-          ))}
-        </div>
-      </SectionContainer>
-    </section>
+    <SectionContainer id="advantages" className="advantages" inverted>
+      <header className="advantages__header">
+        <SectionHeader title={title} description={description} />
+      </header>
+      <div className="advantages__list">
+        {advantages.map((item) => (
+          <Advantage advantage={item} key={item.title} />
+        ))}
+      </div>
+    </SectionContainer>
   );
 };
 

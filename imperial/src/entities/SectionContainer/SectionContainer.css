@@ -1,19 +1,13 @@
-.section-container {
-  position: relative;
-	max-width: 1168px;
-	margin: 0 auto;
+.section {
+  width: 100%;
+  padding: 5.188em 6em;
 
-  &::before {
-    content: "";
-    position: absolute;
-    left: -5.438em;
-    top: 1.688em;
-    width: 3.188em;
-    height: 0.25em;
-    background: var(--primary);
-  }
+  .section__container {
+    position: relative;
+    max-width: 77.867em;
+    margin: 0 auto;
+    display: flex;
 
-  &.inverted {
     &::before {
       content: "";
       position: absolute;
@@ -21,8 +15,31 @@
       top: 1.688em;
       width: 3.188em;
       height: 0.25em;
-      background: var(--inverted);
+      background: var(--primary);
+    }
+  }
+
+  &.inverted {
+    background: var(--primary);
+    & * {
+      color: var(--inverted);
+    }
+    .section__container {
+      &::before {
+        content: "";
+        position: absolute;
+        left: -5.438em;
+        top: 1.688em;
+        width: 3.188em;
+        height: 0.25em;
+        background: var(--inverted);
+      }
     }
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .section {
+    padding: 2.5em 6em;
+  }
+}
