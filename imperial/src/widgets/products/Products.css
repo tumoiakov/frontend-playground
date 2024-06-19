@@ -29,7 +29,7 @@
     .product-list {
       width: 100%;
       display: grid;
-      grid-template-columns: repeat(auto-fill, 18.667em);
+      grid-template-columns: repeat(auto-fill, 17.5em);
       justify-content: start;
       align-items: center;
       gap: 1em;

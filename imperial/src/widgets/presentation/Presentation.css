@@ -5,14 +5,19 @@
   display: flex;
   align-items: stretch;
 
-  .presentation__content {
+  .presentation__content-wrapper {
     box-sizing: content-box;
-    max-width: 622px;
-    margin: 0;
-    margin-top: -131px;
-    padding: 236px 0 0 215px;
+    max-width: 73.125em;
+    width: 100%;
+    margin: -131px auto 0;
+    padding: 236px 0 0;
     display: flex;
-    flex-direction: column;
+
+    .presentation__content {
+      display: flex;
+      flex-direction: column;
+      max-width: 39em;
+    }
 
     .presentation__title {
       margin: 0 0 2px 0;

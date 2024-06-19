@@ -13,7 +13,7 @@
     padding: 0;
 
     li {
-      font-size: 0.88em;
+      font-size: 0.88rem;
       min-width: max-content;
       a {
         text-decoration: none;

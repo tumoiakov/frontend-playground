@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1600px;
-  padding: 14px 40px;
+  max-width: 100rem;
+  padding: 0.875em 2.5em;
   margin: 0 auto;
 
   .header__burger {
