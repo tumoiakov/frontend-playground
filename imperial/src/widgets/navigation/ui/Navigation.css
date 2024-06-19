@@ -1,7 +1,4 @@
 .menu {
-  display: flex;
-  align-items: center;
-
   ul {
     display: grid;
     align-items: center;
@@ -29,6 +26,18 @@
   &.menu--header {
     ul {
       grid-template-columns: repeat(8, fit-content(100px));
+    }
+  }
+
+  &.menu--footer {
+    ul {
+      grid-template-columns: repeat(2, fit-content(100px));
+
+      li {
+        a {
+          color: var(--secondary);
+        }
+      }
     }
   }
 }

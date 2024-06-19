@@ -10,7 +10,7 @@
     max-width: 73.125em;
     width: 100%;
     margin: -131px auto 0;
-    padding: 236px 0 0;
+    padding: 14.75em 3em;
     display: flex;
 
     .presentation__content {
@@ -83,10 +83,13 @@
 @media screen and (max-width: 950px) {
   .presentation {
     min-height: auto;
-    .presentation__content {
+    background: no-repeat 300px 0 / auto 100%
+      url("/src/assets/presentation-background.png");
+
+    .presentation__content-wrapper {
       max-width: 522px;
       margin-top: 40px;
-      padding: 16px;
+      padding: 2em;
       .presentation__title {
         font-size: 2.75rem;
       }
@@ -101,12 +104,10 @@
 
 @media screen and (max-width: 550px) {
   .presentation {
-    min-height: auto;
     background: var(--background-color);
-    .presentation__content {
+    .presentation__content-wrapper {
       max-width: 422px;
       margin-top: 0;
-      padding: 16px;
       .presentation__title {
         font-size: 1.75rem;
       }

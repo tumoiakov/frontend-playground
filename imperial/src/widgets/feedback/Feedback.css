@@ -1,0 +1,9 @@
+.feedback {
+  .feedback__container {
+    flex-direction: column;
+
+    .section-header {
+      max-width: 30.75em;
+    }
+  }
+}

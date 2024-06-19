@@ -43,3 +43,9 @@
     padding: 2.5em 6em;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .section {
+    padding: 2.5em 2em;
+  }
+}
