@@ -13,7 +13,6 @@
     max-width: 73.125em;
     width: 100%;
     display: grid;
-    /* grid-template-columns: repeat(4, fit-content(20.563em)); */
     grid-template-columns: fit-content(20.563em) 19.625em fit-content(20.563em) fit-content(
         20.563em
       );
