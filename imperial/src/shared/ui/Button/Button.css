@@ -2,13 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 52px;
-  padding: 14px 34px;
-  border-radius: 27px;
+  padding: 0.933em 2.267em;
+  border-radius: 1.8em;
   background-color: var(--primary-btn-background);
   color: var(--primary-btn-color);
   border: none;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 700;
 
   &.button--outline {
@@ -24,5 +23,11 @@
     &:hover {
       background-color: var(--outline-hover-btn-background);
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 0.813rem;
   }
 }
