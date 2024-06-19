@@ -3,6 +3,8 @@ import { ProductData } from "@entities/Product/Product.types";
 export const title = "Наша продукция";
 export const description =
   "Выберите из нашего огромного каталога интересующий Вас вариант, и оставьте заявку на его приобретение. Мы обязательно свяжемся с Вами!";
+export const showAllBtnText = "Показать все варианты";
+export const collapseBtnText = "Свернуть";
 
 export const products: Array<ProductData> = [
   {
