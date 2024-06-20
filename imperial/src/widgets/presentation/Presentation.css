@@ -1,7 +1,7 @@
 .presentation {
   min-height: 900px;
   background: no-repeat right / auto 100%
-    url("/src/assets/presentation-background.png");
+    url("/assets/presentation-background.webp");
   display: flex;
   align-items: stretch;
 
@@ -47,8 +47,7 @@
         position: relative;
         min-width: 24px;
         min-height: 24px;
-        background: no-repeat center / contain
-          url("/src/assets/icons/mouse.svg");
+        background: no-repeat center / contain url("/assets/icons/mouse.svg");
         margin-right: 6px;
 
         &::before {
@@ -56,7 +55,7 @@
           min-width: 8px;
           min-height: 8px;
           background: no-repeat center / contain
-            url("/src/assets/icons/chevron-down.svg");
+            url("/assets/icons/chevron-down.svg");
           position: absolute;
           left: 50%;
           bottom: 0%;
@@ -76,7 +75,7 @@
 @media screen and (max-width: 1600px) {
   .presentation {
     background: no-repeat 200px 0 / auto 100%
-      url("/src/assets/presentation-background.png");
+      url("/assets/presentation-background.webp");
   }
 }
 
@@ -84,7 +83,7 @@
   .presentation {
     min-height: auto;
     background: no-repeat 300px 0 / auto 100%
-      url("/src/assets/presentation-background.png");
+      url("/assets/presentation-background.webp");
 
     .presentation__content-wrapper {
       max-width: 522px;

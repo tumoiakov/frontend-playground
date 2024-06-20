@@ -3,7 +3,6 @@ import { Navigation } from "@widgets/navigation";
 import { useCallback, useState } from "react";
 import clsx from "clsx";
 import { CloseButton } from "@shared/ui/CloseButton";
-import PhoneSVG from "@assets/icons/phone.svg?react";
 import "./Header.css";
 
 function Header() {
@@ -26,7 +25,7 @@ function Header() {
       </section>
       <section className="header__phone">
         <p className="header__phone-number">
-          <PhoneSVG width={16} height={16} aria-label="Phone icon" />
+          <div className="header__phone-icon" />
           <span>8 (963) 944 XX XX</span>
         </p>
         <p className="header__btn">

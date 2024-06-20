@@ -16,7 +16,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/turin-1.png",
+    imagePath: "/assets/product/turin-1.webp",
     imageDescription: "Изображение структуры матраса Турин-1",
     sizes: [
       {
@@ -32,6 +32,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Турин-2",
@@ -42,7 +43,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/turin-2.png",
+    imagePath: "/assets/product/turin-2.webp",
     imageDescription: "Изображение структуры матраса Турин-2",
     sizes: [
       {
@@ -58,6 +59,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Турин-3",
@@ -68,7 +70,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/turin-3.png",
+    imagePath: "/assets/product/turin-3.webp",
     imageDescription: "Изображение структуры матраса Турин-3",
     sizes: [
       {
@@ -84,6 +86,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Флоренция-1",
@@ -94,7 +97,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/florencia-1.png",
+    imagePath: "/assets/product/florencia-1.webp",
     imageDescription: "Изображение структуры матраса Флоренция-1",
     sizes: [
       {
@@ -110,6 +113,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Флоренция-2",
@@ -120,7 +124,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/turin-1.png",
+    imagePath: "/assets/product/turin-1.webp",
     imageDescription: "Изображение структуры матраса Флоренция-2",
     sizes: [
       {
@@ -136,6 +140,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Флоренция-3",
@@ -146,7 +151,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/turin-2.png",
+    imagePath: "/assets/product/turin-2.webp",
     imageDescription: "Изображение структуры матраса Флоренция-3",
     sizes: [
       {
@@ -162,6 +167,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Флоренция-4",
@@ -172,7 +178,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/turin-3.png",
+    imagePath: "/assets/product/turin-3.webp",
     imageDescription: "Изображение структуры матраса Флоренция-4",
     sizes: [
       {
@@ -188,6 +194,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Неаполь-1",
@@ -198,7 +205,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/florencia-1.png",
+    imagePath: "/assets/product/florencia-1.webp",
     imageDescription: "Изображение структуры матраса Неаполь-1",
     sizes: [
       {
@@ -214,6 +221,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Неаполь-2",
@@ -224,7 +232,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/florencia-1.png",
+    imagePath: "/assets/product/florencia-1.webp",
     imageDescription: "Изображение структуры матраса Неаполь-2",
     sizes: [
       {
@@ -240,6 +248,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Неаполь-3",
@@ -250,7 +259,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/florencia-1.png",
+    imagePath: "/assets/product/florencia-1.webp",
     imageDescription: "Изображение структуры матраса Неаполь-3",
     sizes: [
       {
@@ -266,6 +275,7 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
   {
     title: "Неаполь-4",
@@ -276,7 +286,7 @@ export const products: Array<ProductData> = [
       { id: "4", element: "Высота матраца", value: "16 см" },
       { id: "5", element: "Для людей весом", value: "до 120 кг" },
     ],
-    imagePath: "/src/assets/product/florencia-1.png",
+    imagePath: "/assets/product/florencia-1.webp",
     imageDescription: "Изображение структуры матраса Неаполь-4",
     sizes: [
       {
@@ -292,5 +302,6 @@ export const products: Array<ProductData> = [
         size: "180х200",
       },
     ],
+    link: "#contacts",
   },
 ];

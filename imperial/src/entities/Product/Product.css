@@ -67,7 +67,7 @@
       font-weight: 700;
       width: 100%;
       background: no-repeat right / 0.8em 0.8em
-        url("/src/assets/icons/chevron-right.svg");
+        url("/assets/icons/chevron-right.svg");
       cursor: pointer;
     }
   }

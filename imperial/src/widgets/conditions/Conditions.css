@@ -32,17 +32,17 @@
 
         .delivery-icon {
           background: no-repeat center / contain
-            url("/src/assets/conditions/delivery.svg");
+            url("/assets/conditions/delivery.svg");
         }
 
         .floor-icon {
           background: no-repeat center / contain
-            url("/src/assets/conditions/floor.svg");
+            url("/assets/conditions/floor.svg");
         }
 
         .gift-icon {
           background: no-repeat center / contain
-            url("/src/assets/conditions/gift.svg");
+            url("/assets/conditions/gift.svg");
         }
 
         span {
@@ -60,19 +60,19 @@
   }
 
   &.conditions--first {
-    background-image: url("/src/assets/conditions/condition1.png");
+    background-image: url("/assets/conditions/condition1.webp");
   }
   &.conditions--second {
-    background-image: url("/src/assets/conditions/condition2.png");
+    background-image: url("/assets/conditions/condition2.webp");
   }
   &.conditions--third {
-    background-image: url("/src/assets/conditions/condition3.png");
+    background-image: url("/assets/conditions/condition3.webp");
   }
   &.conditions--fourth {
-    background-image: url("/src/assets/conditions/condition4.png");
+    background-image: url("/assets/conditions/condition4.webp");
   }
   &.conditions--fifth {
-    background-image: url("/src/assets/conditions/condition5.png");
+    background-image: url("/assets/conditions/condition5.webp");
   }
 }
 

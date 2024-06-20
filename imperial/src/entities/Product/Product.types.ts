@@ -15,6 +15,7 @@ export type ProductData = {
   imageDescription: string;
   content: Array<ProductContent>;
   sizes: Array<ProductSize>;
+  link: string;
 };
 
 export type ProductProps = {

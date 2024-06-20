@@ -65,8 +65,8 @@
         height: 16px;
         background: var(--inverted);
         -webkit-mask: no-repeat center / cover
-          url("/src/assets/icons/phone.svg");
-        mask: no-repeat center / cover url("/src/assets/icons/phone.svg");
+          url("/assets/icons/phone.svg");
+        mask: no-repeat center / cover url("/assets/icons/phone.svg");
       }
 
       span {

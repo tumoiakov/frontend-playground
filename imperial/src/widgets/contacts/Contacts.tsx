@@ -4,6 +4,7 @@ import { description, title } from "./Contacts.const";
 
 import "./Contacts.css";
 import "@entities/SectionContainer/SectionContainer.css";
+import { Button } from "@shared/ui";
 
 const Contacts = memo(() => {
   return (
@@ -20,6 +21,7 @@ const Contacts = memo(() => {
             *Наш менеджер свяжется с вами в течение 3 минут и ответит на все
             ваши вопросы
           </p>
+          <Button type="secondary">Отправить заявку</Button>
         </form>
       </div>
       <div
@@ -27,7 +29,7 @@ const Contacts = memo(() => {
         aria-label="Карта местонахождения офиса компании"
       >
         {/* TODO add real map widget */}
-        <img src="/src/assets/contacts/map.png" alt="map placeholder" />
+        <img src="/assets/contacts/map.webp" alt="map placeholder" />
       </div>
     </section>
   );

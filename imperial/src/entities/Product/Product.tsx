@@ -33,7 +33,7 @@ const Product = memo(({ product }: ProductProps) => {
             <button className="product__size">{sizes[0].size}</button>
             {/* TODO change to select */}
           </p>
-          <a className="product__order">Заказать товар</a>
+          <a href="" className="product__order">Заказать товар</a>
         </section>
       </div>
     </article>

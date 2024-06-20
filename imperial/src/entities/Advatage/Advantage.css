@@ -13,26 +13,26 @@
 
     &.eco {
       -webkit-mask: no-repeat center / cover
-        url("/src/assets/advantage/eco.svg");
-      mask: no-repeat center / cover url("/src/assets/advantage/eco.svg");
+        url("/assets/advantage/eco.svg");
+      mask: no-repeat center / cover url("/assets/advantage/eco.svg");
     }
 
     &.quality {
       -webkit-mask: no-repeat center / cover
-        url("/src/assets/advantage/quality.svg");
-      mask: no-repeat center / cover url("/src/assets/advantage/quality.svg");
+        url("/assets/advantage/quality.svg");
+      mask: no-repeat center / cover url("/assets/advantage/quality.svg");
     }
 
     &.complexity {
       -webkit-mask: no-repeat center / cover
-        url("/src/assets/advantage/quality.svg");
-      mask: no-repeat center / cover url("/src/assets/advantage/complexity.svg");
+        url("/assets/advantage/quality.svg");
+      mask: no-repeat center / cover url("/assets/advantage/complexity.svg");
     }
 
     &.warranty {
       -webkit-mask: no-repeat center / cover
-        url("/src/assets/advantage/quality.svg");
-      mask: no-repeat center / cover url("/src/assets/advantage/warranty.svg");
+        url("/assets/advantage/quality.svg");
+      mask: no-repeat center / cover url("/assets/advantage/warranty.svg");
     }
   }
 
