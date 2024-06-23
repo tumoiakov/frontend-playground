@@ -1,5 +1,6 @@
 /* dark mode */
 :root {
+  color-scheme: dark;
   --primary-color: rgba(255, 255, 255, 0.87);
   --background-color: #242424;
   --footer-background: #0f4861;
@@ -22,6 +23,7 @@
 /* light mode */
 @media (prefers-color-scheme: light) {
   :root {
+    color-scheme: light;
     /* colors */
     --primary-color: #272727;
     --background-color: #ffffff;
