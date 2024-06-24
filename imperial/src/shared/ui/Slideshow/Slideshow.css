@@ -1,0 +1,68 @@
+.slideshow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  .slideshow__next,
+  .slideshow__prev {
+    height: 100%;
+    width: 3em;
+    display: block flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: absolute;
+    background-color: var(--icon-btn-background);
+    border-radius: 0.5em;
+
+    &:hover {
+      background-color: var(--hover-icon-btn-background);
+    }
+
+    &:active {
+      background-color: var(--active-icon-btn-background);
+    }
+
+    &:disabled {
+      background-color: var(--disabled-icon-btn-background);
+      opacity: 0.5;
+    }
+  }
+
+  .slideshow__next {
+    right: -4.125em;
+    background: no-repeat center / 1.5em 1.5em
+      url("/assets/icons/chevron-right.svg");
+  }
+
+  .slideshow__prev {
+    left: -4.125em;
+    background: no-repeat center / 1.5em 1.5em
+      url("/assets/icons/chevron-left.svg");
+  }
+
+  &.slideshow--single {
+    justify-content: center;
+  }
+
+  .slide-container + .slide-container {
+    margin-left: 1.875em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .slideshow {
+    .slideshow__next,
+    .slideshow__prev {
+      position: relative;
+      left: initial;
+      right: initial;
+      height: auto;
+    }
+
+    &.slideshow--single {
+      justify-content: space-between;
+    }
+  }
+}

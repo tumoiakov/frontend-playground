@@ -20,10 +20,10 @@ const Footer = memo(() => {
           </ul>
         </section>
         <section className="footer__phone">
-          <p className="footer__phone-number">
+          <div className="footer__phone-number">
             <div className="footer__phone-icon" />
             <span>8 (963) 944 XX XX</span>
-          </p>
+          </div>
           <p className="footer__phone-link">
             <a href="#contacts">Заказать звонок</a>
           </p>

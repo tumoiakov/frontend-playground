@@ -18,10 +18,10 @@ const Presentation = memo(() => {
           <Button elem="link" href="#constuctor" className="presentation__btn">
             Подобрать матрас
           </Button>
-          <p className="presentation__more">
-            <div className="presentation__more__icon" />
+          <div className="presentation__more">
+            <span className="presentation__more__icon" />
             <span>Подробнее</span>
-          </p>
+          </div>
         </div>
       </div>
     </section>

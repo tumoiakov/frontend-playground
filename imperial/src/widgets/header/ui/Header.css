@@ -36,7 +36,7 @@
       display: flex;
       align-items: center;
       margin-right: 40px;
-      .footer__phone-icon {
+      .header__phone-icon {
         width: 16px;
         height: 16px;
         background: var(--primary-color);

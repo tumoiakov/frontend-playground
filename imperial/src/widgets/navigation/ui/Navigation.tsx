@@ -12,7 +12,7 @@ function Navigation({ className, ...rest }: NavigationProps) {
     <nav {...rest} className={clsx("menu", className)}>
       <ul>
         {links.map((link) => (
-          <li key={link.href} className="menu__item">
+          <li key={`${link.href} - ${link.title}`} className="menu__item">
             <a href={link.href} className="menu__link">
               {link.title}
             </a>

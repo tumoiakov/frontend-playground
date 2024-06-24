@@ -24,10 +24,10 @@ function Header() {
         <Navigation className="menu--header" />
       </section>
       <section className="header__phone">
-        <p className="header__phone-number">
+        <div className="header__phone-number">
           <div className="header__phone-icon" />
           <span>8 (963) 944 XX XX</span>
-        </p>
+        </div>
         <p className="header__btn">
           <Button elem="link" href="#contacts" type="outline">
             Заказать звонок

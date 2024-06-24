@@ -1,13 +1,11 @@
 /* dark mode */
 :root {
   color-scheme: dark;
-  --primary-color: rgba(255, 255, 255, 0.87);
   --background-color: #242424;
   --footer-background: #0f4861;
   --primary: #29abe2;
   --secondary: #79a0b0;
   --inverted: #272727;
-  --card-shadow-color: rgba(41, 171, 226, 0.12);
   --border-color: #f3f3f3;
   /* button */
   --primary-btn-background: #29abe2;
@@ -15,9 +13,19 @@
   --outline-btn-background: #242424;
   --outline-btn-border-color: #29abe2;
   --outline-btn-color: #29abe2;
+  --icon-btn-background: #fff;
+  --hover-icon-btn-background: rgba(41, 171, 226, 0.2);
+  --active-icon-btn-background: rgba(41, 171, 226, 0.4);
   /* font */
   --title-font-family: Playfair Display, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
+  --primary-color: rgba(255, 255, 255, 0.87);
+  --accent-color: #29abe2;
+  --secondary-color: #9f9f9f;
+  /* shadow */
+  --feedback-card-shadow: 0 0.125em 1em rgba(85, 156, 255, 0.16);
+  --card-shadow-color: rgba(41, 171, 226, 0.12);
+  --avatar-shadow: 0 0.5em 0.813em rgba(0, 0, 0, 0.19);
 }
 
 /* light mode */
@@ -25,17 +33,29 @@
   :root {
     color-scheme: light;
     /* colors */
-    --primary-color: #272727;
     --background-color: #ffffff;
     --footer-background: #0f4861;
     --primary: #29abe2;
     --secondary: #79a0b0;
     --inverted: #fff;
+    --border-color: #f3f3f3;
     /* button */
     --primary-btn-background: #29abe2;
     --primary-btn-color: #fff;
     --outline-btn-background: #fff;
     --outline-btn-border-color: #29abe2;
     --outline-btn-color: #29abe2;
+    --icon-btn-background: #fff;
+    --hover-icon-btn-background: rgba(41, 171, 226, 0.2);
+    --active-icon-btn-background: rgba(41, 171, 226, 0.4);
+    --disabled-icon-btn-background: rgba(0, 0, 0, 0.05);
+    /* font */
+    --primary-color: #272727;
+    --accent-color: #29abe2;
+    --secondary-color: #9f9f9f;
+    /* shadow */
+    --feedback-card-shadow: 0 0.125em 1em rgba(85, 156, 255, 0.16);
+    --card-shadow-color: rgba(33, 43, 47, 0.12);
+    --avatar-shadow: 0 0.5em 0.813em rgba(0, 0, 0, 0.19);
   }
 }
