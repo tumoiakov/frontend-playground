@@ -39,15 +39,21 @@ const Products = memo(() => {
           <p className="category-menu__label">Выберите категорию:</p>
           <menu>
             {/* TODO make buttons work */}
-            <Button>Матрасы</Button>
-            <Button type="outline">Наматрасники</Button>
-            <Button type="outline">Детские матрасы</Button>
+            <Button elem="button" type="button">
+              Матрасы
+            </Button>
+            <Button elem="button" type="button" ui="outline">
+              Наматрасники
+            </Button>
+            <Button elem="button" type="button" ui="outline">
+              Детские матрасы
+            </Button>
           </menu>
         </div>
       </header>
       <div className="product-list">{productList}</div>
       <footer className="products__footer">
-        <Button onClick={toggleShowAll}>
+        <Button elem="button" type="button" onClick={toggleShowAll}>
           {showAll ? collapseBtnText : showAllBtnText}
         </Button>
       </footer>

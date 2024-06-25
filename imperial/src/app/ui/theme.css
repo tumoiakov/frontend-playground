@@ -8,14 +8,25 @@
   --inverted: #272727;
   --border-color: #f3f3f3;
   /* button */
+  /* button--primary */
   --primary-btn-background: #29abe2;
   --primary-btn-color: #fff;
+  /* button--outline */
   --outline-btn-background: #242424;
+  --hover-outline-btn-background: #393939;
+  --active-outline-btn-background: #4f4f4f;
   --outline-btn-border-color: #29abe2;
   --outline-btn-color: #29abe2;
+  /* button--secondary */
+  --secondary-btn-background: #242424;
+  --hover-secondary-btn-background: #393939;
+  --active-secondary-btn-background: #4f4f4f;
+  --secondary-btn-color: rgba(255, 255, 255, 0.87);
+  /* button--icon */
   --icon-btn-background: #fff;
   --hover-icon-btn-background: rgba(41, 171, 226, 0.2);
   --active-icon-btn-background: rgba(41, 171, 226, 0.4);
+  --disabled-icon-btn-background: rgba(0, 0, 0, 0.05);
   /* font */
   --title-font-family: Playfair Display, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
@@ -26,6 +37,9 @@
   --feedback-card-shadow: 0 0.125em 1em rgba(85, 156, 255, 0.16);
   --card-shadow-color: rgba(41, 171, 226, 0.12);
   --avatar-shadow: 0 0.5em 0.813em rgba(0, 0, 0, 0.19);
+  /* input */
+  --input-background-color: #76d6ff;
+  --input-font-color: #fff;
 }
 
 /* light mode */
@@ -40,11 +54,21 @@
     --inverted: #fff;
     --border-color: #f3f3f3;
     /* button */
+    /* button--primary */
     --primary-btn-background: #29abe2;
     --primary-btn-color: #fff;
+    /* button--outline */
     --outline-btn-background: #fff;
+    --hover-outline-btn-background: #e5e5e5;
+    --active-outline-btn-background: #cccccc;
     --outline-btn-border-color: #29abe2;
     --outline-btn-color: #29abe2;
+    /* button--secondary */
+    --secondary-btn-background: #fff;
+    --hover-secondary-btn-background: #e5e5e5;
+    --active-secondary-btn-background: #cccccc;
+    --secondary-btn-color: #272727;
+    /* button--icon */
     --icon-btn-background: #fff;
     --hover-icon-btn-background: rgba(41, 171, 226, 0.2);
     --active-icon-btn-background: rgba(41, 171, 226, 0.4);
@@ -57,5 +81,8 @@
     --feedback-card-shadow: 0 0.125em 1em rgba(85, 156, 255, 0.16);
     --card-shadow-color: rgba(33, 43, 47, 0.12);
     --avatar-shadow: 0 0.5em 0.813em rgba(0, 0, 0, 0.19);
+    /* input */
+    --input-background-color: #76d6ff;
+    --input-font-color: #fff;
   }
 }

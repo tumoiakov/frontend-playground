@@ -1,23 +1,24 @@
 import clsx from "clsx";
-import { ButtonProps } from "./Button.types";
+import { ButtonProps, AnchorElemProps } from "./Button.types";
 import "./Button.css";
 
-const Button = ({
-  className,
-  children,
-  type = "primary",
-  elem = "button",
-  ...rest
-}: ButtonProps) => {
-  if (elem === "link") {
+const Button = (props: ButtonProps) => {
+  if (props.elem === "link") {
+    const {
+      className,
+      children,
+      ui = "primary",
+      ...rest
+    } = props as AnchorElemProps;
+
     return (
       <a
         {...rest}
         className={clsx(
           "button",
           className,
-          type === "outline" && "button--outline",
-          type === "secondary" && "button--secondary"
+          ui === "outline" && "button--outline",
+          ui === "secondary" && "button--secondary"
         )}
       >
         {children}
@@ -25,14 +26,16 @@ const Button = ({
     );
   }
 
+  const { className, children, ui = "primary", ...rest } = props;
+
   return (
     <button
       {...rest}
       className={clsx(
         "button",
         className,
-        type === "outline" && "button--outline",
-        type === "secondary" && "button--secondary"
+        ui === "outline" && "button--outline",
+        ui === "secondary" && "button--secondary"
       )}
     >
       {children}

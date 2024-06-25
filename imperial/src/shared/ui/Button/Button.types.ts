@@ -1,9 +1,16 @@
 type ButtonType = "primary" | "secondary" | "outline";
-type ButtonElem = "link" | "button";
+// type ButtonElem = "link" | "button";
 
-export type ButtonProps = React.HTMLProps<
-  HTMLButtonElement & HTMLAnchorElement
-> & {
-  type?: ButtonType;
-  elem?: ButtonElem;
+export type ButtonElemProps = React.HTMLProps<HTMLButtonElement> & {
+  elem: "button";
+  type: "submit" | "reset" | "button";
+  ui?: ButtonType;
 };
+
+export type AnchorElemProps = React.HTMLProps<HTMLAnchorElement> & {
+  elem: "link";
+  type: string;
+  ui?: ButtonType;
+};
+
+export type ButtonProps = ButtonElemProps | AnchorElemProps;
