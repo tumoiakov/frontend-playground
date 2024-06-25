@@ -28,6 +28,37 @@
       height: 0.25em;
       background: var(--inverted);
     }
+
+    .contacts__form {
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.813em;
+      max-width: 19.438em;
+
+      & input {
+        font-size: 0.875rem;
+        color: var(--input-font-color);
+        height: 3.571em;
+        background-color: var(--input-background-color);
+        padding: 1em 1.857em;
+        border: none;
+        border-radius: 1.786em;
+
+        &::placeholder {
+          color: var(--input-font-color);
+          opacity: 1;
+        }
+      }
+
+      & .form__description {
+        font-size: 0.875rem;
+        font-weight: 300;
+      }
+
+      & .form__submit {
+        width: 17.214em;
+      }
+    }
   }
 
   .contacts__map {

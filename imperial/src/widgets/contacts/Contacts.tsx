@@ -13,15 +13,30 @@ const Contacts = memo(() => {
         <header>
           <SectionHeader title={title} description={description} />
         </header>
-        <form>
+        <form className="contacts__form">
           <p>Обратная связь</p>
-          <input type="text" placeholder="Введите ваше имя" />
-          <input type="text" placeholder="Ваш номер телефона" />
-          <p>
+          <input
+            type="text"
+            placeholder="Введите ваше имя"
+            aria-label="Ввод имени"
+          />
+          <input
+            type="text"
+            placeholder="Ваш номер телефона"
+            aria-label="Ввод номера телефона"
+          />
+          <p className="form__description">
             *Наш менеджер свяжется с вами в течение 3 минут и ответит на все
             ваши вопросы
           </p>
-          <Button type="secondary">Отправить заявку</Button>
+          <Button
+            className="form__submit"
+            elem="button"
+            type="submit"
+            ui="secondary"
+          >
+            Отправить заявку
+          </Button>
         </form>
       </div>
       <div
