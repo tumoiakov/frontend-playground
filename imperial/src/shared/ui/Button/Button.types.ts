@@ -9,7 +9,7 @@ export type ButtonElemProps = React.HTMLProps<HTMLButtonElement> & {
 
 export type AnchorElemProps = React.HTMLProps<HTMLAnchorElement> & {
   elem: "link";
-  type: string;
+  type?: string;
   ui?: ButtonType;
 };
 
