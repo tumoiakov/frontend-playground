@@ -29,7 +29,12 @@ function Header() {
           <span>8 (963) 944 XX XX</span>
         </div>
         <p className="header__btn">
-          <Button elem="link" href="#contacts" ui="outline">
+          <Button
+            elem="link"
+            href="#contacts"
+            ui="outline"
+            className="button--shadow-small"
+          >
             Заказать звонок
           </Button>
         </p>

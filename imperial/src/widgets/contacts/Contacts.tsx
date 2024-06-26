@@ -35,7 +35,7 @@ const Contacts = memo(() => {
             ваши вопросы
           </p>
           <Button
-            className="form__submit"
+            className="form__submit button--shadow-large"
             elem="button"
             type="submit"
             ui="secondary"

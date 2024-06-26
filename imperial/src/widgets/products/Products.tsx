@@ -53,7 +53,12 @@ const Products = memo(() => {
       </header>
       <div className="product-list">{productList}</div>
       <footer className="products__footer">
-        <Button elem="button" type="button" onClick={toggleShowAll}>
+        <Button
+          elem="button"
+          type="button"
+          onClick={toggleShowAll}
+          className="button--shadow-large"
+        >
           {showAll ? collapseBtnText : showAllBtnText}
         </Button>
       </footer>
