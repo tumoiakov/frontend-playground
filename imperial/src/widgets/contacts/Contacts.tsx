@@ -1,4 +1,4 @@
-import { memo } from "react";
+import { memo, useCallback } from "react";
 import { SectionHeader } from "@entities/SectionHeader";
 import { description, title } from "./Contacts.const";
 
@@ -7,21 +7,26 @@ import "@entities/SectionContainer/SectionContainer.css";
 import { Button } from "@shared/ui";
 
 const Contacts = memo(() => {
+  const onSubmit = useCallback<React.FormEventHandler<HTMLFormElement>>((e) => {
+    e.preventDefault();
+    console.log("submit");
+  }, []);
+
   return (
     <section id="contacts" className="contacts">
       <div className="contacts__container">
         <header>
           <SectionHeader title={title} description={description} />
         </header>
-        <form className="contacts__form">
-          <p>Обратная связь</p>
+        <form className="contacts__form" onSubmit={onSubmit}>
+          <p className="form__title">Обратная связь</p>
           <input
             type="text"
             placeholder="Введите ваше имя"
             aria-label="Ввод имени"
           />
           <input
-            type="text"
+            type="number"
             placeholder="Ваш номер телефона"
             aria-label="Ввод номера телефона"
           />

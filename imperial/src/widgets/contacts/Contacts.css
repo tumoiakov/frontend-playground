@@ -48,6 +48,20 @@
           color: var(--input-font-color);
           opacity: 1;
         }
+
+        &[type="number"] {
+          -moz-appearance: textfield;
+          appearance: textfield;
+
+          &::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+          }
+        }
+      }
+
+      & .form__title {
+        font-size: 1.125rem;
+        margin: 1.889em 0 0;
       }
 
       & .form__description {
@@ -64,7 +78,6 @@
   .contacts__map {
     justify-self: end;
     max-width: min(50em, 100%);
-    max-height: 35.313em;
     overflow: hidden;
     background-color: aquamarine;
 
@@ -85,6 +98,7 @@
       display: flex;
       justify-self: start;
       margin: 0;
+      margin-bottom: 2.5em;
 
       .section-header {
         max-width: 30.063rem;
