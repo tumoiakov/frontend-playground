@@ -15,10 +15,6 @@
     background-color: var(--outline-btn-background);
     border: 2px solid var(--outline-btn-border-color);
     color: var(--outline-btn-color);
-
-    &:hover {
-      background-color: var(--hover-outline-btn-background);
-    }
   }
 
   &.button--secondary {
@@ -26,9 +22,6 @@
     background-color: var(--secondary-btn-background);
     border: none;
     color: var(--secondary-btn-color);
-    &:hover {
-      background-color: var(--hover-secondary-btn-background);
-    }
 
     &:active {
       background-color: var(--active-secondary-btn-background);
@@ -49,6 +42,18 @@
 
     &:active {
       box-shadow: none;
+    }
+  }
+}
+
+@media (hover: hover) {
+  .button {
+    &.button--outline:hover {
+      background-color: var(--hover-outline-btn-background);
+    }
+
+    &.button--secondary:hover {
+      background-color: var(--hover-secondary-btn-background);
     }
   }
 }
