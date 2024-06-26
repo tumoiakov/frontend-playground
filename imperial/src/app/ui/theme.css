@@ -12,16 +12,16 @@
   --button-shadow-small: 0 0.25em 0.25em 0 var(--button-shadow-color);
   --button-shadow-large: 0 1.5em 2.125em -1em var(--button-shadow-color);
   /* button--primary */
-  --primary-btn-background: #29abe2;
+  --primary-btn-background: var(--primary);
   --primary-btn-color: #fff;
   /* button--outline */
-  --outline-btn-background: #242424;
+  --outline-btn-background: var(--background-color);
   --hover-outline-btn-background: #393939;
   --active-outline-btn-background: #4f4f4f;
-  --outline-btn-border-color: #29abe2;
-  --outline-btn-color: #29abe2;
+  --outline-btn-border-color: var(--primary);
+  --outline-btn-color: var(--primary);
   /* button--secondary */
-  --secondary-btn-background: #242424;
+  --secondary-btn-background: var(--background-color);
   --hover-secondary-btn-background: #393939;
   --active-secondary-btn-background: #4f4f4f;
   --secondary-btn-color: rgba(255, 255, 255, 0.87);
@@ -34,7 +34,7 @@
   --title-font-family: Playfair Display, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
   --primary-color: rgba(255, 255, 255, 0.87);
-  --accent-color: #29abe2;
+  --accent-color: var(--primary);
   --secondary-color: #9f9f9f;
   /* shadow */
   --feedback-card-shadow: 0 0.125em 1em rgba(85, 156, 255, 0.16);
@@ -43,6 +43,12 @@
   /* input */
   --input-background-color: #76d6ff;
   --input-font-color: #fff;
+  /* tabview */
+  --tab-background-color: #eaebeb;
+  --tab-font-color: #676767;
+  --active-tab-background-color: var(--primary);
+  --active-tab-font-color: var(--inverted);
+  --tabview-border: 2px solid var(--tab-background-color);
 }
 
 /* light mode */

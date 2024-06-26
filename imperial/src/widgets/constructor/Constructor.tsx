@@ -1,8 +1,9 @@
 import { memo } from "react";
 import { SectionContainer } from "@entities/SectionContainer";
 import { SectionHeader } from "@entities/SectionHeader";
-import { description, title } from "./Constructor.const";
+import { description, tabs, title } from "./Constructor.const";
 import "./Constructor.css";
+import { TabView } from "@shared/ui/TabView";
 
 const Constructor = memo(() => {
   return (
@@ -10,7 +11,7 @@ const Constructor = memo(() => {
       <header>
         <SectionHeader title={title} description={description} />
       </header>
-      <div>{/* TODO add constuctor */}</div>
+      <TabView tabs={tabs} className="constuctor__content" />
     </SectionContainer>
   );
 });

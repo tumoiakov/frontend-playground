@@ -5,5 +5,9 @@
     .section-header {
       max-width: 36.063em;
     }
+
+    .constuctor__content {
+      margin-top: 2.875em;
+    }
   }
 }
