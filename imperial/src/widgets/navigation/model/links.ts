@@ -3,34 +3,34 @@ import { LinkItem } from "./types";
 export const links: Array<LinkItem> = [
   {
     title: "Матрасы",
-    href: "#",
+    href: "#products",
   },
   {
     title: "О продукции",
-    href: "#",
+    href: "#advantages",
   },
   {
     title: "Доставка",
-    href: "#",
+    href: "#conditions",
   },
   {
     title: "Гарантии",
-    href: "#",
+    href: "#conditions",
   },
   {
     title: "Отзывы",
-    href: "#",
+    href: "#feedback",
   },
   {
     title: "Адреса магазинов",
-    href: "#",
+    href: "#contacts",
   },
   {
     title: "Партнерам",
-    href: "#",
+    href: "#contacts",
   },
   {
     title: "Контакты",
-    href: "#",
+    href: "#contacts",
   },
 ];
