@@ -1,5 +1,5 @@
 .products {
-  background-color: #fafcff;
+  background-color: var(--products-background-color);
   .products__container {
     flex-direction: column;
 

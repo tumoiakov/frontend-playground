@@ -1,11 +1,14 @@
 /* dark mode */
 :root {
   color-scheme: dark;
+  /* colors */
   --background-color: #242424;
+  --products-background-color: #1f2224;
+  --conditions-background-color: #1f1f1f;
   --footer-background: #0f4861;
   --primary: #29abe2;
   --secondary: #79a0b0;
-  --inverted: #272727;
+  --inverted: #fff;
   --border-color: #f3f3f3;
   /* button */
   --button-shadow-color: rgba(0, 0, 0, 0.25);
@@ -49,6 +52,12 @@
   --active-tab-background-color: var(--primary);
   --active-tab-font-color: var(--inverted);
   --tabview-border: 2px solid var(--tab-background-color);
+  /* select */
+  --select-background: var(--background-color);
+  --hover-select-background: #393939;
+  --active-select-background: #4f4f4f;
+  --select-border-color: var(--primary);
+  --select-font-color: #cccccc;
 }
 
 /* light mode */
@@ -57,6 +66,8 @@
     color-scheme: light;
     /* colors */
     --background-color: #ffffff;
+    --products-background-color: #fafcff;
+    --conditions-background-color: #fafafa;
     --footer-background: #0f4861;
     --primary: #29abe2;
     --secondary: #79a0b0;
@@ -93,5 +104,11 @@
     /* input */
     --input-background-color: #76d6ff;
     --input-font-color: #fff;
+    /* select */
+    --select-background: #fff;
+    --hover-select-background: #e5e5e5;
+    --active-select-background: #cccccc;
+    --select-border-color: #29abe2;
+    --select-font-color: #4f4f4f;
   }
 }

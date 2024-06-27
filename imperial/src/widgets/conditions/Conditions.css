@@ -1,5 +1,5 @@
 .conditions {
-  background-color: #fafafa;
+  background-color: var(--conditions-background-color);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: right;
