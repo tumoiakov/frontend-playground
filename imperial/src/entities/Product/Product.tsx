@@ -1,9 +1,22 @@
-import { memo } from "react";
+import { memo, useCallback, useState } from "react";
 import "./Product.css";
-import { ProductProps } from "./Product.types";
+import { ProductProps, ProductSize } from "./Product.types";
+import { Select } from "@shared/ui/Select";
 
 const Product = memo(({ product }: ProductProps) => {
   const { title, content, imageDescription, imagePath, sizes } = product;
+  const [productSize, setProductSize] = useState<ProductSize>(sizes[0]);
+
+  const handleSizeChange = useCallback(
+    (value: string) => {
+      const newSize = sizes.find((item) => item.size === value);
+      if (newSize) {
+        setProductSize(newSize);
+      }
+    },
+    [sizes]
+  );
+
   return (
     <article className="product">
       <div className="product__image">
@@ -27,13 +40,23 @@ const Product = memo(({ product }: ProductProps) => {
           <p>
             <span className="product__price">
               {new Intl.NumberFormat("ru-Ru", { useGrouping: true }).format(
-                sizes[0].price
-              )}р.
+                productSize.price
+              )}
+              р.
             </span>
-            <button className="product__size">{sizes[0].size}</button>
-            {/* TODO change to select */}
+            <Select
+              className="product__size"
+              defaultValue={productSize.size}
+              onChange={handleSizeChange}
+            >
+              {sizes.map((size) => (
+                <Select.Option value={size.size}>{size.size}</Select.Option>
+              ))}
+            </Select>
           </p>
-          <a href="" className="product__order">Заказать товар</a>
+          <a href="" className="product__order">
+            Заказать товар
+          </a>
         </section>
       </div>
     </article>

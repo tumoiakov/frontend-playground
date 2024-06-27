@@ -4,7 +4,7 @@ type ProductContent = {
   value: string;
 };
 
-type ProductSize = {
+export type ProductSize = {
   size: string;
   price: number;
 };

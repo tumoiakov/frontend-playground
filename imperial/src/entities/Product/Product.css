@@ -1,6 +1,7 @@
 .product {
   width: 17.5em;
   box-shadow: 0 0.125em 0.563em 0 var(--card-shadow-color);
+  background-color: var(--background-color);
 
   .product__image {
     width: 100%;
@@ -58,6 +59,12 @@
       font-size: 1.125rem;
       font-weight: 900;
       margin: 0;
+      min-width: 4.222em;
+    }
+
+    .product__size {
+      width: 100%;
+      margin-left: 2.154em;
     }
 
     .product__order {
