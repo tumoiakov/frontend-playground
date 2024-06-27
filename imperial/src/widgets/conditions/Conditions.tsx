@@ -47,7 +47,7 @@ const Conditions = memo(() => {
         </li>
       </ul>
       <footer>
-        <Button elem="link" href="#constructor">
+        <Button elem="link" href="#constructors">
           Подобрать матрас
         </Button>
       </footer>

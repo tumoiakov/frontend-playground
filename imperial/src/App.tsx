@@ -1,6 +1,6 @@
 import { Advantages } from "@widgets/advantages";
 import { Conditions } from "@widgets/conditions";
-import { Constructor } from "@widgets/constructor";
+import { Constructors } from "@widgets/constructors";
 import Contacts from "@widgets/contacts/Contacts";
 import { Feedback } from "@widgets/feedback";
 import { Footer } from "@widgets/footer";
@@ -15,7 +15,7 @@ function App() {
       <Presentation />
       <Advantages />
       <Products />
-      <Constructor />
+      <Constructors />
       <Conditions />
       <Feedback />
       <Contacts />

@@ -1,19 +1,19 @@
 import { memo } from "react";
 import { SectionContainer } from "@entities/SectionContainer";
 import { SectionHeader } from "@entities/SectionHeader";
-import { description, tabs, title } from "./Constructor.const";
-import "./Constructor.css";
+import { description, tabs, title } from "./Constructors.const";
+import "./Constructors.css";
 import { TabView } from "@shared/ui/TabView";
 
-const Constructor = memo(() => {
+const Constructors = memo(() => {
   return (
-    <SectionContainer id="constuctor" className="constuctor">
+    <SectionContainer id="constuctors" className="constuctors">
       <header>
         <SectionHeader title={title} description={description} />
       </header>
-      <TabView tabs={tabs} className="constuctor__content" />
+      <TabView tabs={tabs} className="constuctors__content" />
     </SectionContainer>
   );
 });
 
-export default Constructor;
+export default Constructors;

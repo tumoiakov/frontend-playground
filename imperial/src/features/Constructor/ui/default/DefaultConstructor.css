@@ -1,0 +1,50 @@
+.constuctor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.constructor__editor {
+  padding: 2.313em 1.875em;
+  display: flex;
+  flex-direction: column;
+}
+
+.constuctor__icon {
+  width: 1em;
+  height: 1em;
+  background: no-repeat center / cover url("/assets/icons/ruler.svg");
+}
+
+.constuctor__icon--size {
+  background: no-repeat center / cover url("/assets/icons/ruler.svg");
+}
+
+.constuctor__icon--editor {
+  background: no-repeat center / cover url("/assets/icons/layers.svg");
+}
+
+.constuctor__label {
+  font-size: 0.875rem;
+  margin: 0 1.071em 0 0.571em;
+}
+
+.constructor__size {
+  display: flex;
+  align-items: center;
+}
+
+.constuctor__size-divider {
+  font-size: 0.813rem;
+  font-weight: 300;
+  margin: 0.538em;
+}
+
+.constuctor__size-select {
+  min-width: 6.625em;
+}
+
+.constuctor__structure-label {
+  margin-top: 1.938em;
+  display: flex;
+  align-items: center;
+}

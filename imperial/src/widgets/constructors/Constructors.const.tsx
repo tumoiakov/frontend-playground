@@ -1,3 +1,4 @@
+import { Constructor } from "@features/Constructor";
 import { Tab } from "@shared/ui/TabView/TabView.types";
 
 export const title = "Онлайн-конструктор матрасов";
@@ -7,10 +8,10 @@ export const description =
 export const tabs: Array<Tab> = [
   {
     name: "Стандартный",
-    content: null,
+    content: <Constructor type="default" />,
   },
   {
     name: "Заказной размер",
-    content: null,
+    content: <Constructor type="custom" />,
   },
 ];

@@ -15,7 +15,7 @@ const Presentation = memo(() => {
             Подберите для себя матрас индивидуально по выгодной цене и дизайну
             на нашем онлайн-конструкторе прямо сейчас!
           </p>
-          <Button elem="link" href="#constuctor" className="presentation__btn button--shadow-large">
+          <Button elem="link" href="#constuctors" className="presentation__btn button--shadow-large">
             Подобрать матрас
           </Button>
           <div className="presentation__more">
