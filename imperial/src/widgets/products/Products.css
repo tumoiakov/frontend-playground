@@ -41,6 +41,16 @@
       align-items: center;
       margin-top: 2.5em;
     }
+
+    .products__empty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      font-weight: 300;
+      width: 100%;
+      height: 25em;
+    }
   }
 }
 
