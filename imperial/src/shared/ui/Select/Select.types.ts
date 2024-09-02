@@ -4,6 +4,7 @@ export type SelectProps = {
   children: ReactNode | ReactNode[];
   defaultValue?: string;
   onChange?: (value: string) => void;
+  ui?: 'primary' | 'borderless';
   className?: string;
 };
 

@@ -14,7 +14,11 @@ const DefaultConstructor = () => {
             <Select.Option value="100 см">100 см</Select.Option>
           </Select>
           <span className="constuctor__size-divider">x</span>
-          <Select defaultValue="190 см" className="constuctor__size-select">
+          <Select
+            defaultValue="190 см"
+            className="constuctor__size-select"
+            ui="borderless"
+          >
             <Select.Option value="180 см">180 см</Select.Option>
             <Select.Option value="190 см">190 см</Select.Option>
             <Select.Option value="200 см">200 см</Select.Option>

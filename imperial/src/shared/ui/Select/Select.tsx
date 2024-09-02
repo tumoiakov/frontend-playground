@@ -15,6 +15,7 @@ const Select = ({
   className,
   children,
   defaultValue,
+  ui = "primary",
   onChange,
 }: SelectProps) => {
   const [currentValue, setCurrentValue] =
@@ -30,8 +31,12 @@ const Select = ({
   );
 
   return (
-    <div className={clsx("select", className)}>
-      <select value={currentValue} onChange={onValueUpdate} className="select__inner">
+    <div className={clsx("select", ui, className)}>
+      <select
+        value={currentValue}
+        onChange={onValueUpdate}
+        className="select__inner"
+      >
         {children}
       </select>
     </div>
