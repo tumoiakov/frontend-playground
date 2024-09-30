@@ -12,15 +12,16 @@
 .constuctor__icon {
   width: 1em;
   height: 1em;
-  background: no-repeat center / cover url("/assets/icons/ruler.svg");
+  background: var(--icon-color);
+  mask: no-repeat center / cover url("/assets/icons/ruler.svg");
 }
 
 .constuctor__icon--size {
-  background: no-repeat center / cover url("/assets/icons/ruler.svg");
+  mask: no-repeat center / cover url("/assets/icons/ruler.svg");
 }
 
 .constuctor__icon--editor {
-  background: no-repeat center / cover url("/assets/icons/layers.svg");
+  mask: no-repeat center / cover url("/assets/icons/layers.svg");
 }
 
 .constuctor__label {

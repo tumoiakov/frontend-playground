@@ -10,6 +10,8 @@
   --secondary: #79a0b0;
   --inverted: #fff;
   --border-color: #f3f3f3;
+  /* icons */
+  --icon-color: #fff;
   /* button */
   --button-shadow-color: rgba(0, 0, 0, 0.25);
   --button-shadow-small: 0 0.25em 0.25em 0 var(--button-shadow-color);
@@ -73,6 +75,8 @@
     --secondary: #79a0b0;
     --inverted: #fff;
     --border-color: #f3f3f3;
+    /* icons */
+    --icon-color: #353535;
     /* button */
     /* button--primary */
     --primary-btn-background: #29abe2;

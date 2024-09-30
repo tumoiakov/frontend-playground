@@ -17,7 +17,6 @@ const DefaultConstructor = () => {
           <Select
             defaultValue="190 см"
             className="constuctor__size-select"
-            ui="borderless"
           >
             <Select.Option value="180 см">180 см</Select.Option>
             <Select.Option value="190 см">190 см</Select.Option>
