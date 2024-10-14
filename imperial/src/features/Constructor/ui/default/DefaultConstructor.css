@@ -29,21 +29,6 @@
   margin: 0 1.071em 0 0.571em;
 }
 
-.constructor__size {
-  display: flex;
-  align-items: center;
-}
-
-.constuctor__size-divider {
-  font-size: 0.813rem;
-  font-weight: 300;
-  margin: 0.538em;
-}
-
-.constuctor__size-select {
-  min-width: 6.625em;
-}
-
 .constuctor__structure-label {
   margin-top: 1.938em;
   display: flex;

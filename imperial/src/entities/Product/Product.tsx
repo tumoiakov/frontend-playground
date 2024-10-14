@@ -37,7 +37,7 @@ const Product = memo(({ product }: ProductProps) => {
           </ul>
         </section>
         <section className="product__cost">
-          <p>
+          <div>
             <span className="product__price">
               {new Intl.NumberFormat("ru-Ru", { useGrouping: true }).format(
                 productSize.price
@@ -50,10 +50,10 @@ const Product = memo(({ product }: ProductProps) => {
               onChange={handleSizeChange}
             >
               {sizes.map((size) => (
-                <Select.Option value={size.size}>{size.size}</Select.Option>
+                <Select.Option key={size.size} value={size.size}>{size.size}</Select.Option>
               ))}
             </Select>
-          </p>
+          </div>
           <a href="" className="product__order">
             Заказать товар
           </a>

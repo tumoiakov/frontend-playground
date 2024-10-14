@@ -9,6 +9,7 @@ const TabView = ({ tabs, className }: TabViewProps) => {
     () =>
       tabs.map((tab, index) => (
         <div
+          key={tab.name}
           className={clsx(
             "tabview__tab",
             index === currentTabIdx && "tabview__tab--active"

@@ -3,16 +3,16 @@ import "./Layers.css";
 import { LayersProps } from "./Layers.types";
 import { Layer } from "./ui/Layer";
 
-const Layers = ({ layers }: LayersProps) => {
+const Layers = ({ layers, onRemove }: LayersProps) => {
   const layersList = useMemo(
     () => (
       <div className="layers__list">
-        {layers.map((layer) => (
-          <Layer layer={layer} onClose={() => console.log("close")} />
+        {layers.map((layer, index) => (
+          <Layer key={layer.name} layer={layer} onRemove={() => onRemove(index)} />
         ))}
       </div>
     ),
-    [layers]
+    [layers, onRemove]
   );
 
   const layersEmpty = (

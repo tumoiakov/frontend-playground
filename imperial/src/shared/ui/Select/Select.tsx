@@ -19,7 +19,7 @@ const Select = ({
   onChange,
 }: SelectProps) => {
   const [currentValue, setCurrentValue] =
-    useState<Optional<string>>(defaultValue);
+    useState<Optional<string | number >>(defaultValue);
 
   const onValueUpdate = useCallback(
     (e: React.ChangeEvent<HTMLSelectElement>) => {
